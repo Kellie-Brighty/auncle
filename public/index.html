@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The $ANC Airdrop — Top 100 Crypto Airdrop of All Time. Over 8,130+ SOL given away." />
+  <title>$ANC — The $ANC Airdrop</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════ TOP TICKER BAR ═══════════ -->
+  <header class="ticker-bar" id="ticker-bar">
+    <div class="nav-container">
+      <div class="ticker-left">
+        <div class="ticker-brand">
+          <img src="logo.jpg" alt="$ANC Logo" class="ticker-logo" />
+          <span class="ticker-name">$ANC</span>
+        </div>
+        <a href="#" class="ticker-contract" id="contract-badge">
+          <span class="contract-text">1nc1..1111</span>
+          <svg class="copy-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2-0 01-2-2V4a2 2-0 012-2h9a2 2 0 012 2v1"/></svg>
+        </a>
+      </div>
+      <div class="ticker-right">
+        <a href="https://x.com/anc_onsol?s=21&t=ixiiG202sbw6tRIRYPxi2g" target="_blank" class="social-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a href="#" class="coingecko-link">CoinGecko Leaderboard ↗</a>
+        <div class="ticker-price-live">
+          <span class="live-price">$0.0196</span>
+          <span class="live-change positive">+8.63%</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══════════ STATS STRIP ═══════════ -->
+  <div class="stats-strip" id="stats-strip">
+    <div class="nav-container stats-flex">
+      <div class="stat-item">
+        <span class="stat-label">PRICE</span>
+        <span class="stat-value" id="stat-price">$0.0196</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">SOL</span>
+        <span class="stat-value" id="stat-sol">0.00022940</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">1H</span>
+        <span class="stat-value positive" id="stat-1h">+8.63%</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">24H</span>
+        <span class="stat-value positive" id="stat-24h">+155.00%</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">VOL 24H</span>
+        <span class="stat-value" id="stat-vol">$9.30M</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">MCAP</span>
+        <span class="stat-value" id="stat-mcap">$19.6M</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">ATH MCAP</span>
+        <span class="stat-value" id="stat-ath-mcap">$25.0M</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">LIQUIDITY</span>
+        <span class="stat-value" id="stat-liquidity">$436.1K</span>
+      </div>
+      <div class="stat-item stat-age">
+        <span class="stat-value muted" id="stat-age">8s ago</span>
+        <span class="age-dot"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════ MAIN CONTENT ═══════════ -->
+  <main class="main-content">
+
+    <!-- Hero Card -->
+    <section class="hero-section" id="hero-section">
+      <div class="hero-card">
+        <img src="banner.PNG" alt="$ANC Airdrop Banner" class="hero-image" />
+        <div class="hero-overlay">
+          <h2 class="hero-value" id="hero-value">$7,826,449</h2>
+          <p class="hero-label">total airdrop value · <span class="live-dot-text">live</span></p>
+        </div>
+        <div class="hero-socials">
+          <a href="https://x.com/anc_onsol?s=21&t=ixiiG202sbw6tRIRYPxi2g" target="_blank" class="social-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ATH Banner -->
+    <section class="ath-section" id="ath-section">
+      <div class="ath-card">
+        <div class="ath-left">
+          <span class="ath-label">AIRDROP ALL-TIME HIGH</span>
+          <span class="ath-value" id="ath-value">$10,006,428</span>
+        </div>
+        <div class="ath-right">
+          <span class="ath-date" id="ath-date">Apr 16, 2026</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Title Section -->
+    <section class="title-section" id="title-section">
+      <p class="title-tag">TOP 100 CRYPTO AIRDROP OF ALL TIME</p>
+      <h1 class="title-main">The $ANC Airdrop</h1>
+      <p class="title-sub">≈ <strong>8,130+</strong> <span class="sol-text">SOL</span> given away. ancs in control.</p>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="quote-section" id="quote-section">
+      <p class="quote-text"><em>"nobody has ever done it before — and nobody will ever do it again"</em></p>
+      <p class="quote-author">— @fibonacki ↗</p>
+    </section>
+
+    <!-- Airdrop Comparison Section -->
+    <section class="comparison-section" id="comparison-section">
+      <p class="section-label-tiny">AIRDROP COMPARISON</p>
+      <div class="comparison-card">
+        <!-- Row 1: pump.fun -->
+        <div class="comparison-row">
+          <div class="row-left">
+            <div class="icon-wrapper glass">
+              <img src="pumpfun.webp" alt="pump.fun Logo" class="row-logo" />
+            </div>
+            <div class="row-info">
+              <span class="row-name">pump.fun</span>
+              <span class="row-sub">1B+ in fees collected</span>
+            </div>
+          </div>
+          <div class="row-right">
+            <span class="row-value">$0</span>
+          </div>
+        </div>
+        <!-- Row 2: $ANC -->
+        <div class="comparison-row highlight">
+          <div class="row-left">
+            <div class="icon-wrapper">
+              <img src="logo.jpg" alt="$ANC Logo" class="row-logo" />
+            </div>
+            <div class="row-info">
+              <span class="row-name">$ANC</span>
+              <span class="row-sub">built on pump.fun · 40% supply</span>
+            </div>
+          </div>
+          <div class="row-right">
+            <span class="row-value">$7.7M</span>
+          </div>
+        </div>
+        <!-- Card Footer -->
+        <div class="card-footer-text">
+          <em>the platform never did. a user on it did.</em>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- What If Section -->
+    <section class="what-if-section" id="what-if-section">
+      <h2 class="what-if-title">What if?</h2>
+      <p class="what-if-sub">Slide the market cap — watch $ANC climb the leaderboard</p>
+
+      <div class="simulator-container">
+        <!-- Target Mcap Card -->
+        <div class="sim-card card-left">
+          <p class="card-label-tiny">TARGET MARKET CAP</p>
+          
+          <div class="target-select-row">
+            <button class="target-btn" data-value="10000000">$10M</button>
+            <button class="target-btn" data-value="100000000">$100M</button>
+            <button class="target-btn" data-value="500000000">$500M</button>
+            <button class="target-btn" data-value="1000000000">$1B</button>
+            <button class="target-btn" data-value="10000000000">$10B</button>
+          </div>
+
+          <div class="slider-box">
+            <div class="slider-labels">
+              <span>$500K</span>
+              <span class="current-target-label" id="slider-target-val">$528.0M</span>
+              <span>$10B</span>
+            </div>
+            <input type="range" id="mcap-slider" min="500000" max="10000000000" step="100000" value="528000000" class="mcap-slider">
+          </div>
+
+          <div class="sim-data-table">
+            <div class="data-row">
+              <span class="data-label">Current mcap</span>
+              <span class="data-value">$19.2M</span>
+            </div>
+            <div class="data-row">
+              <span class="data-label">Current airdrop</span>
+              <span class="data-value">$7.7M</span>
+            </div>
+            <div class="data-row">
+              <span class="data-label">Multiplier</span>
+              <span class="data-value highlight-white" id="sim-multiplier">×27.5</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rank Result Card -->
+        <div class="sim-card card-right">
+          <div class="res-top">
+            <p class="res-label-muted" id="res-mcap-label">AT $528.0M · RANK</p>
+            <h3 class="res-rank" id="res-rank-val">#28</h3>
+            <p class="res-sub">of all time</p>
+          </div>
+
+          <div class="res-mid">
+            <p class="res-airdrop-label">airdrop worth</p>
+            <p class="res-airdrop-val" id="res-worth-val">$211.2M</p>
+          </div>
+
+          <div class="res-bottom">
+            <p class="res-footer-top" id="res-footer-rank">Top 30 all time</p>
+            <p class="res-footer-sub" id="res-footer-mult">28x from today</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Milestones Section -->
+    <section class="milestones-section" id="milestones-section">
+      <h2 class="milestones-title">Milestones</h2>
+      <p class="milestones-sub">What the $ANC airdrop is worth at each target</p>
+
+      <div class="milestones-grid">
+        <!-- Card 1 -->
+        <div class="mile-card">
+          <div class="mile-top">
+            <span class="mile-target">$1M MCAP</span>
+          </div>
+          <div class="mile-mid">
+            <h3 class="mile-rank">#61 <span class="mile-subtext">all time</span></h3>
+            <p class="mile-value">$400K</p>
+          </div>
+          <div class="mile-bottom">entering top 50</div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="mile-card">
+          <div class="mile-top">
+            <span class="mile-target">$5M MCAP</span>
+          </div>
+          <div class="mile-mid">
+            <h3 class="mile-rank">#60 <span class="mile-subtext">all time</span></h3>
+            <p class="mile-value">$2.0M</p>
+          </div>
+          <div class="mile-bottom">surpasses DappRadar</div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="mile-card">
+          <div class="mile-top">
+            <span class="mile-target">$10M MCAP</span>
+          </div>
+          <div class="mile-mid">
+            <h3 class="mile-rank">#58 <span class="mile-subtext">all time</span></h3>
+            <p class="mile-value">$4.0M</p>
+          </div>
+          <div class="mile-bottom">surpasses Spectra</div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="mile-card">
+          <div class="mile-top">
+            <span class="mile-target">$100M MCAP</span>
+          </div>
+          <div class="mile-mid">
+            <h3 class="mile-rank">#47 <span class="mile-subtext">all time</span></h3>
+            <p class="mile-value">$40.0M</p>
+          </div>
+          <div class="mile-bottom">surpasses Sweat Economy</div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="mile-card">
+          <div class="mile-top">
+            <span class="mile-target">$500M MCAP</span>
+          </div>
+          <div class="mile-mid">
+            <h3 class="mile-rank">#29 <span class="mile-subtext">all time</span></h3>
+            <p class="mile-value">$200.0M</p>
+          </div>
+          <div class="mile-bottom">surpasses Grass</div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="mile-card">
+          <div class="mile-top">
+            <span class="mile-target">$1B MCAP</span>
+          </div>
+          <div class="mile-mid">
+            <h3 class="mile-rank">#23 <span class="mile-subtext">all time</span></h3>
+            <p class="mile-value">$400.0M</p>
+          </div>
+          <div class="mile-bottom">surpasses Loot</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="section-divider"></div>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="global-footer">
+    <div class="footer-left">
+      <img src="logo.jpg" alt="$ANC Logo" class="footer-logo" />
+      <span class="footer-brand">$ANC</span>
+    </div>
+    <div class="footer-center">
+      <span class="data-source">Data: CoinGecko Research · DexScreener ↗</span>
+    </div>
+    <div class="footer-right">
+      <div class="footer-quote">
+        <p>"nobody has ever done it before — and nobody will ever do it again"</p>
+        <span class="quote-author">— @fibonacki ↗</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
